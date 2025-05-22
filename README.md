@@ -28,13 +28,8 @@
     h2 {
       color: #003366;
     }
-    .contact {
+    .contact, .pricing, .testimonials, .social, .form-section {
       background-color: #e6f0ff;
-      padding: 1em;
-      border-radius: 8px;
-    }
-    .pricing {
-      background-color: #f0faff;
       padding: 1em;
       border-radius: 8px;
     }
@@ -48,14 +43,17 @@
       border-radius: 5px;
       font-weight: bold;
     }
+    .social a {
+      margin-right: 1em;
+      font-size: 1.2em;
+      color: #003366;
+      text-decoration: none;
+    }
     footer {
       background-color: #003366;
       color: white;
       text-align: center;
       padding: 1em 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
     }
   </style>
 </head>
@@ -83,6 +81,25 @@
     <li><strong>Poster Design:</strong> R40 – R60</li>
     <li><strong>WhatsApp Business Setup:</strong> R30</li>
   </ul>
+</section>
+
+<section class="testimonials">
+  <h2>What Clients Say</h2>
+  <p>"Qhum is fast and professional. Got my CV same day!" – <em>Thando M.</em></p>
+  <p>"Great service, helped me with NSFAS and my bursary form." – <em>Lungile S.</em></p>
+</section>
+
+<section class="form-section">
+  <h2>Service Request Form</h2>
+  <p>Click below to fill out our request form. We’ll contact you back via WhatsApp!</p>
+  <a class="cta" href="https://forms.gle/your-google-form-link" target="_blank">Fill Out the Form</a>
+</section>
+
+<section class="social">
+  <h2>Follow Me</h2>
+  <a href="#" target="_blank">Facebook</a>
+  <a href="#" target="_blank">Instagram</a>
+  <a href="#" target="_blank">TikTok</a>
 </section>
 
 <section class="contact">
