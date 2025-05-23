@@ -2,35 +2,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qhum Siyavuya | CV & Online Services</title>
+  <title>Qhum Siyavuya | CV & Online Help Services</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f9ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8faff;
       color: #333;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #003366;
+      background: url('https://images.unsplash.com/photo-1612831455541-5a6a4f08b6f2?auto=format&fit=crop&w=1050&q=80') center/cover no-repeat;
       color: white;
-      padding: 1.5em 0;
+      padding: 4em 2em;
       text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
     }
     main {
       padding: 2em;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     section {
-      margin-bottom: 2.5em;
+      margin-bottom: 3em;
     }
     h2 {
       color: #003366;
+      margin-bottom: 0.5em;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .highlight {
+      background-color: #eaf3ff;
+      padding: 1.5em;
+      border-radius: 10px;
     }
     .contact, .pricing, .testimonials, .social, .form-section {
       background-color: #e6f0ff;
-      padding: 1em;
+      padding: 1.2em;
       border-radius: 8px;
     }
     .cta {
@@ -45,15 +58,21 @@
     }
     .social a {
       margin-right: 1em;
-      font-size: 1.2em;
+      font-size: 1.1em;
       color: #003366;
       text-decoration: none;
+    }
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 8px;
     }
     footer {
       background-color: #003366;
       color: white;
       text-align: center;
-      padding: 1em 0;
+      padding: 1.5em 0;
     }
   </style>
 </head>
@@ -63,16 +82,24 @@
     <p>Professional CV & Online Help Services</p>
   </header>
   <main>
-    <section>
-      <h2>Services</h2>
-      <ul>
-        <li>CV typing & design (from R30)</li>
-        <li>Job & bursary application assistance</li>
-        <li>SASSA / SRD help</li>
-        <li>Poster & flyer design</li>
-        <li>WhatsApp Business setup</li>
-      </ul>
-    </section><section class="pricing">
+    <section class="image-section">
+      <img src="https://images.unsplash.com/photo-1581091012184-7e0cdfbb6791?auto=format&fit=crop&w=900&q=80" alt="Typing CV on laptop">
+      <img src="https://images.unsplash.com/photo-1611095973518-d3c7b6ba1f46?auto=format&fit=crop&w=900&q=80" alt="Data Capture and Form Help">
+      <img src="https://images.unsplash.com/photo-1588584077032-9a6126fd0f10?auto=format&fit=crop&w=900&q=80" alt="Mobile Business Setup">
+    </section><section>
+  <h2>Services</h2>
+  <div class="highlight">
+    <ul>
+      <li>CV typing & design (from R30)</li>
+      <li>Job & bursary application assistance</li>
+      <li>SASSA / SRD help</li>
+      <li>Poster & flyer design</li>
+      <li>WhatsApp Business setup</li>
+    </ul>
+  </div>
+</section>
+
+<section class="pricing">
   <h2>Pricing</h2>
   <ul>
     <li><strong>CV Design:</strong> R30 – R50</li>
@@ -92,7 +119,7 @@
 <section class="form-section">
   <h2>Service Request Form</h2>
   <p>Click below to fill out our request form. We’ll contact you back via WhatsApp!</p>
-  <a class="cta" href="https://forms.gle/your-google-form-link" target="_blank">Fill Out the Form</a>
+  <a class="cta" href="#">Fill Out the Form</a>
 </section>
 
 <section class="social">
